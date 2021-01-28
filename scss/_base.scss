@@ -1,0 +1,38 @@
+//*Primary Colors
+$black: #000000;
+$white: #ffffff;
+$lightgray: #dfdfdf;
+$accent: linear-gradient(
+  26.57deg,
+  #ffc593 0.42%,
+  #bc7198 43.46%,
+  #5a77ff 83.33%
+);
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+}
