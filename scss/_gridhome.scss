@@ -79,3 +79,235 @@
     height: 650px;
   }
 }
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__left {
+    background: url('https://ramon-carrillo.github.io/photosnap/assets/home/desktop/beautiful-stories.jpg')
+      no-repeat center center;
+    background-size: cover;
+    width: 830px;
+    height: 600px;
+  }
+
+  &__right {
+    position: relative;
+    width: 610px;
+    height: 600px;
+  }
+
+  &__textbox {
+    position: absolute;
+    width: 387px;
+    height: 304px;
+    left: 112px;
+    top: 136px;
+
+    h1 {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 4.16667px;
+      text-transform: uppercase;
+      color: $black;
+      margin-bottom: 21px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 25px;
+      color: $black;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      margin-bottom: 48px;
+    }
+
+    &--btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 205px;
+    }
+
+    a {
+      align-items: center;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: $black;
+    }
+
+    a:hover {
+      text-decoration-line: underline;
+    }
+
+    svg {
+      width: 42px;
+      height: 12px;
+      fill: black;
+    }
+  }
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__left {
+    position: relative;
+    width: 610px;
+    height: 600px;
+  }
+
+  &__textbox {
+    position: absolute;
+    width: 387px;
+    height: 304px;
+    left: 112px;
+    top: 136px;
+
+    h1 {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 4.16667px;
+      text-transform: uppercase;
+      color: $black;
+      margin-bottom: 21px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 25px;
+      color: $black;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      margin-bottom: 48px;
+    }
+
+    &--btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 205px;
+    }
+
+    a {
+      align-items: center;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: $black;
+    }
+
+    a:hover {
+      text-decoration-line: underline;
+    }
+
+    svg {
+      width: 42px;
+      height: 12px;
+      fill: black;
+    }
+  }
+
+  &__right {
+    background: url('https://ramon-carrillo.github.io/photosnap/assets/home/desktop/designed-for-everyone.jpg')
+      no-repeat center center;
+    background-size: cover;
+    width: 830px;
+    height: 600px;
+  }
+}
+
+.storygrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .storygrid1 {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/mountains.jpg')
+        no-repeat center center;
+    background-size: cover;
+    width: 360px;
+    height: 500px;
+
+    &__container {
+      position: relative;
+    }
+
+    &__titlebox {
+      position: absolute;
+      width: 280px;
+      height: 46px;
+      left: 40px;
+      top: 361px;
+
+      h3 {
+        margin-top: 4px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+      }
+
+      h4 {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: normal;
+        color: #ffffff;
+      }
+    }
+
+    &__border {
+      position: absolute;
+      width: 280px;
+      height: 1px;
+      left: 40px;
+      top: 423px;
+      background: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.25;
+    }
+
+    &__read--container {
+      position: absolute;
+      width: 280px;
+      height: 16px;
+      left: 40px;
+      top: 444px;
+    }
+
+    &__read--btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 16px;
+
+      a {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        width: 100px;
+        color: $white;
+        text-transform: uppercase;
+      }
+
+      svg {
+        width: 42px;
+        height: 12px;
+      }
+    }
+  }
+}
