@@ -1,0 +1,246 @@
+.storygrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.story__card--img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 360px;
+  height: 500px;
+}
+
+.story__card {
+  &__container {
+    position: relative;
+  }
+
+  &__titlebox {
+    position: absolute;
+    width: 280px;
+    height: 46px;
+    left: 40px;
+    top: 361px;
+
+    h3 {
+      margin-top: 4px;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+
+    h4 {
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: normal;
+      color: #ffffff;
+    }
+  }
+
+  &__border {
+    position: absolute;
+    width: 280px;
+    height: 1px;
+    left: 40px;
+    top: 423px;
+    background: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+  }
+
+  &__read--container {
+    position: absolute;
+    width: 280px;
+    height: 16px;
+    left: 40px;
+    top: 444px;
+  }
+
+  &__read--btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 16px;
+
+    a {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 2px;
+      width: 100px;
+      color: $white;
+      text-transform: uppercase;
+    }
+
+    svg {
+      width: 42px;
+      height: 12px;
+    }
+  }
+}
+
+.story__card1 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/mountains.jpg');
+}
+
+.story__card2 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/cityscapes.jpg');
+}
+
+.story__card3 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/18-days-voyage.jpg');
+}
+
+.story__card4 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/architecturals.jpg');
+}
+
+.story__card5 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/world-tour.jpg');
+}
+
+.story__card6 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/unforeseen-corners.jpg');
+}
+
+.story__card7 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/king-on-africa.jpg');
+}
+
+.story__card8 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/trip-to-nowhere.jpg');
+}
+
+.story__card9 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/rage-of-the-sea.jpg');
+}
+
+.story__card10 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/running-free.jpg');
+}
+
+.story__card11 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/behind-the-waves.jpg');
+}
+
+.story__card12 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/calm_waters.jpg');
+}
+
+.story__card13 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/milky-way.jpg');
+}
+
+.story__card14 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/dark-forest.jpg');
+}
+
+.story__card15 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/somwarpet.jpg');
+}
+
+.story__card16 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    ),
+    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/land-of-dreams.jpg');
+}
+
+.story__card1:hover,
+.story__card2:hover,
+.story__card3:hover,
+.story__card4:hover,
+.story__card5:hover,
+.story__card6:hover,
+.story__card7:hover,
+.story__card8:hover,
+.story__card9:hover,
+.story__card10:hover,
+.story__card11:hover,
+.story__card12:hover,
+.story__card13:hover,
+.story__card14:hover,
+.story__card15:hover,
+.story__card16:hover {
+  transform: translateY(-24px);
+  transition: transform 400ms;
+}
