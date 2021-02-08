@@ -285,4 +285,28 @@
   p {
     height: 3.125rem;
   }
+
+  .features__card1--img {
+    background: url('../../assets/features/desktop/responsive.svg') no-repeat
+      center center;
+    background-size: cover;
+    height: 72px;
+    width: 72px;
+  }
+
+  .features__card2--img {
+    background: url('../../assets/features/desktop/no-limit.svg') no-repeat
+      center center;
+    background-size: cover;
+    height: 36px;
+    width: 72px;
+  }
+
+  .features__card3--img {
+    background: url('../../assets/features/desktop/embed.svg') no-repeat center
+      center;
+    background-size: cover;
+    height: 72px;
+    width: 71px;
+  }
 }
