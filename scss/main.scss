@@ -1,6 +1,19 @@
-@import 'base';
-@import 'utilities';
-@import 'nav';
-@import 'gridhome';
-@import 'story-card';
-@import 'features';
+//* Utils Folder*//
+@import 'utils/variables';
+@import 'utils/helpers';
+
+//* Base Folder *//
+@import 'base/reset';
+@import 'base/typography';
+
+//* Components *//
+@import 'components/buttons';
+@import 'components/cards';
+
+//* Layout *//
+@import 'layout/navigation';
+@import 'layout/hero';
+@import 'layout/footer';
+
+//* Pages *//
+@import 'pages/home';

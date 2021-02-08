@@ -1,0 +1,44 @@
+.hero {
+  &__left {
+    display: flex;
+    align-items: center;
+    background-color: $black;
+  }
+
+  &__accentbox {
+    width: 6px;
+    height: 19rem;
+    background: $accent;
+  }
+
+  &__textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24.1875rem;
+    height: 19rem;
+    margin-left: 6.625rem;
+
+    h1 {
+      text-transform: uppercase;
+      color: $white;
+      margin-bottom: 1.3125rem;
+    }
+
+    p {
+      color: $white;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      margin-bottom: 3rem;
+    }
+  }
+  .button2 {
+    color: $white;
+  }
+
+  &__right {
+    background-size: cover;
+    width: 51.875rem;
+    height: 40.625rem;
+  }
+}

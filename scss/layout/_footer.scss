@@ -1,0 +1,133 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: $black;
+  width: 90rem;
+  height: 15.625rem;
+  padding-left: 10.6875rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-right: 10.3125rem;
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 6.8125rem;
+    height: 7.625rem;
+    width: 15.9375rem;
+    a {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    a:hover {
+      opacity: 0.3;
+    }
+  }
+
+  &__copyright {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    width: 35.625rem;
+    height: 7.625rem;
+  }
+
+  &__ctext {
+    color: $white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 7.625rem;
+
+  &__icons {
+    display: inherit;
+    justify-content: space-between;
+    width: 9.625rem;
+  }
+
+  .social__facebook {
+    svg path {
+      fill: white;
+      transition: all 400ms ease-in-out;
+    }
+
+    svg:hover path {
+      display: none;
+    }
+
+    &:hover {
+      background: url('../../assets/shared/desktop/facebook.svg') no-repeat;
+    }
+  }
+  .social__youtube {
+    svg path {
+      fill: white;
+      transition: all 400ms ease-in-out;
+    }
+
+    svg:hover path {
+      display: none;
+    }
+
+    &:hover {
+      background: url('../../assets/shared/desktop/youtube.svg') no-repeat;
+    }
+  }
+  .social__twitter {
+    svg path {
+      fill: white;
+      transition: all 400ms ease-in-out;
+    }
+
+    svg:hover path {
+      display: none;
+    }
+
+    &:hover {
+      background: url('../../assets/shared/desktop/twitter.svg') no-repeat;
+    }
+  }
+  .social__pinterest {
+    svg path {
+      fill: white;
+      transition: all 400ms ease-in-out;
+    }
+
+    svg:hover path {
+      display: none;
+    }
+
+    &:hover {
+      background: url('../../assets/shared/desktop/pinterest.svg') no-repeat;
+    }
+  }
+  .social__instagram {
+    svg path {
+      fill: white;
+      transition: all 400ms ease-in-out;
+    }
+
+    svg:hover path {
+      display: none;
+    }
+
+    &:hover {
+      background: url('../../assets/shared/desktop/instagram.svg') no-repeat;
+    }
+  }
+}

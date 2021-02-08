@@ -1,0 +1,24 @@
+.hero__right {
+  background: url('../../assets/home/desktop/create-and-share.jpg') no-repeat
+    center center;
+}
+
+.solutions {
+  &__left {
+    background: url('../../assets/home/desktop/beautiful-stories.jpg') no-repeat
+      center center;
+    background-size: cover;
+    width: 51.875rem;
+    height: 37.5rem;
+  }
+}
+
+.solutions2 {
+  &__right {
+    background: url('../../assets/home/desktop/designed-for-everyone.jpg')
+      no-repeat center center;
+    background-size: cover;
+    width: 51.875rem;
+    height: 37.5rem;
+  }
+}

@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  padding: 0 10.3125rem;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    width: 10.625rem;
+    height: 1rem;
+    margin: 1.75rem 0;
+  }
+
+  &__links {
+    margin: 1.75rem 0;
+    a {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $black;
+    }
+
+    a:not(:last-child) {
+      margin-right: 38px;
+    }
+
+    a:hover {
+      opacity: 0.3;
+    }
+  }
+}

@@ -1,14 +1,38 @@
-.storygrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+//* Home Page Cards*//
+.solutions__card {
+  display: flex;
+  align-items: center;
+
+  .solutions__textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24.1875rem;
+    height: 19rem;
+    margin-left: 6.625rem;
+
+    h1 {
+      text-transform: uppercase;
+      color: $black;
+      margin-bottom: 1.3125rem;
+    }
+
+    p {
+      color: $black;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      margin-bottom: 3rem;
+    }
+  }
 }
 
+//* Story Cards*//
 .story__card--img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 360px;
-  height: 500px;
+  width: 22.5rem;
+  height: 31.25rem;
 }
 
 .story__card {
@@ -18,65 +42,60 @@
 
   &__titlebox {
     position: absolute;
-    width: 280px;
-    height: 46px;
-    left: 40px;
-    top: 361px;
+    width: 17.5rem;
+    height: 2.875rem;
+    left: 2.5rem;
+    top: 22.5625rem;
 
     h3 {
       margin-top: 4px;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 25px;
-      color: #ffffff;
+      color: $white;
     }
 
     h4 {
-      font-size: 13px;
-      line-height: 17px;
       font-weight: normal;
-      color: #ffffff;
+      color: $white;
     }
   }
 
   &__border {
     position: absolute;
-    width: 280px;
+    width: 17.5rem;
     height: 1px;
-    left: 40px;
-    top: 423px;
-    background: #ffffff;
+    left: 2.5rem;
+    top: 26.4375rem;
+    background: $white;
     mix-blend-mode: normal;
     opacity: 0.25;
   }
 
   &__read--container {
     position: absolute;
-    width: 280px;
-    height: 16px;
-    left: 40px;
-    top: 444px;
+    width: 17.5rem;
+    height: 1rem;
+    left: 2.5rem;
+    top: 27.75rem;
   }
 
   &__read--btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 16px;
+    height: 1rem;
 
     a {
       font-weight: bold;
-      font-size: 12px;
-      line-height: 16px;
+      font-size: 0.75rem;
+      line-height: 1rem;
       letter-spacing: 2px;
-      width: 100px;
+      width: 6.25rem;
       color: $white;
       text-transform: uppercase;
     }
 
     svg {
-      width: 42px;
-      height: 12px;
+      width: 2.625rem;
+      height: 0.75rem;
     }
   }
 }
@@ -87,7 +106,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/mountains.jpg');
+    url('../../assets/stories/desktop/mountains.jpg');
 }
 
 .story__card2 {
@@ -96,7 +115,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/cityscapes.jpg');
+    url('../../assets/stories/desktop/cityscapes.jpg');
 }
 
 .story__card3 {
@@ -105,7 +124,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/18-days-voyage.jpg');
+    url('../../assets/stories/desktop/18-days-voyage.jpg');
 }
 
 .story__card4 {
@@ -114,7 +133,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/architecturals.jpg');
+    url('../../assets/stories/desktop/architecturals.jpg');
 }
 
 .story__card5 {
@@ -123,7 +142,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/world-tour.jpg');
+    url('../../assets/stories/desktop/world-tour.jpg');
 }
 
 .story__card6 {
@@ -132,7 +151,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/unforeseen-corners.jpg');
+    url('../../assets/stories/desktop/unforeseen-corners.jpg');
 }
 
 .story__card7 {
@@ -141,7 +160,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/king-on-africa.jpg');
+    url('../../assets/stories/desktop/king-on-africa.jpg');
 }
 
 .story__card8 {
@@ -150,7 +169,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/trip-to-nowhere.jpg');
+    url('../../assets/stories/desktop/trip-to-nowhere.jpg');
 }
 
 .story__card9 {
@@ -159,7 +178,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/rage-of-the-sea.jpg');
+    url('../../assets/stories/desktop/rage-of-the-sea.jpg');
 }
 
 .story__card10 {
@@ -168,7 +187,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/running-free.jpg');
+    url('../../assets/stories/desktop/running-free.jpg');
 }
 
 .story__card11 {
@@ -177,7 +196,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/behind-the-waves.jpg');
+    url('../../assets/stories/desktop/behind-the-waves.jpg');
 }
 
 .story__card12 {
@@ -186,7 +205,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/calm_waters.jpg');
+    url('../../assets/stories/desktop/calm_waters.jpg');
 }
 
 .story__card13 {
@@ -195,7 +214,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/milky-way.jpg');
+    url('../../assets/stories/desktop/milky-way.jpg');
 }
 
 .story__card14 {
@@ -204,7 +223,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/dark-forest.jpg');
+    url('../../assets/stories/desktop/dark-forest.jpg');
 }
 
 .story__card15 {
@@ -213,7 +232,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/somwarpet.jpg');
+    url('../../assets/stories/desktop/somwarpet.jpg');
 }
 
 .story__card16 {
@@ -222,7 +241,7 @@
       rgba(0, 0, 0, 0.0001) 0.27%,
       rgba(0, 0, 0, 0.661222) 100%
     ),
-    url('https://ramon-carrillo.github.io/photosnap/assets/stories/desktop/land-of-dreams.jpg');
+    url('../../assets/stories/desktop/land-of-dreams.jpg');
 }
 
 .story__card1:hover,
@@ -241,6 +260,29 @@
 .story__card14:hover,
 .story__card15:hover,
 .story__card16:hover {
-  transform: translateY(-24px);
+  transform: translateY(-1.5rem);
   transition: transform 400ms;
+}
+
+//* Features Cards *//
+.features {
+  grid-gap: 1.875rem;
+  margin: 0 10.3125rem 7.5rem 10.3125rem;
+}
+.features__card {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 21.87rem;
+  height: 14.75rem;
+
+  h3,
+  p {
+    text-align: center;
+  }
+
+  p {
+    height: 3.125rem;
+  }
 }
