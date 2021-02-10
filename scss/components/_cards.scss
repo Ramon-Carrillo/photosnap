@@ -273,7 +273,7 @@
 
   .img__accentbox {
     position: absolute;
-    top: 500px;
+    top: 31.25rem;
     width: 22.5rem;
     height: 6px;
     background: $accent;
@@ -283,7 +283,7 @@
 //* Features Cards *//
 .features {
   grid-gap: 1.875rem;
-  margin: 0 10.3125rem 7.5rem 10.3125rem;
+  margin: 0 10.3125rem 0 10.3125rem;
 }
 .features__card {
   display: grid;
@@ -321,6 +321,30 @@
   .features__card3--img {
     background: url('../../assets/features/desktop/embed.svg') no-repeat center
       center;
+    background-size: cover;
+    height: 72px;
+    width: 71px;
+  }
+
+  .features__card4--img {
+    background: url('../../assets/features/desktop/custom-domain.svg') no-repeat
+      center center;
+    background-size: cover;
+    height: 72px;
+    width: 71px;
+  }
+
+  .features__card5--img {
+    background: url('../../assets/features/desktop/boost-exposure.svg')
+      no-repeat center center;
+    background-size: cover;
+    height: 72px;
+    width: 71px;
+  }
+
+  .features__card6--img {
+    background: url('../../assets/features/desktop/drag-drop.svg') no-repeat
+      center center;
     background-size: cover;
     height: 72px;
     width: 71px;

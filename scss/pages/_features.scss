@@ -1,0 +1,23 @@
+.hero__right--features {
+  background: url('../../assets/features/desktop/hero.jpg');
+  width: 830px;
+  height: 490px;
+}
+
+.hero__textbox--features {
+  justify-content: center;
+  align-content: center;
+  height: 144px;
+
+  h1 {
+    width: 100%;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.hero__accentbox--features {
+  height: 144px;
+}

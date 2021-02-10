@@ -2,23 +2,23 @@
   background-image: url('../../assets/stories/desktop/moon-of-appalacia.jpg');
   background-size: cover;
   background-position: center center;
-  width: 1440px;
-  height: 650px;
+  width: 90rem;
+  height: 40.625rem;
 
   &__container {
-    padding-top: 122px;
-    padding-left: 112px;
+    padding-top: 7.625rem;
+    padding-left: 7rem;
   }
 
   &__textbox {
     display: flex;
     flex-direction: column;
-    width: 387px;
-    height: 406px;
+    width: 24.1875rem;
+    height: 25.375rem;
     h4 {
       color: $white;
       text-transform: uppercase;
-      margin-bottom: 24px;
+      margin-bottom: 1.5rem;
     }
 
     h1 {
@@ -31,13 +31,13 @@
       color: $white;
       mix-blend-mode: normal;
       opacity: 0.6;
-      margin-top: 24px;
+      margin-top: 1.5rem;
     }
   }
 
   &__date {
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 0.8125rem;
+    line-height: 1.0625rem;
     color: $white;
     mix-blend-mode: normal;
     opacity: 0.75;
@@ -45,22 +45,22 @@
   }
 
   &__author {
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 0.8125rem;
+    line-height: 1.0625rem;
     color: $white;
   }
 
   &__btn {
-    margin-top: 24px;
+    margin-top: 1.5rem;
 
     &:hover {
       text-decoration-line: underline;
       .story__lgradient {
         position: absolute;
-        left: 230px;
-        top: 72px;
-        width: 720px;
-        height: 650px;
+        left: 14.375rem;
+        top: 4.5rem;
+        width: 45rem;
+        height: 40.625rem;
         background: radial-gradient(
           68.48% 68.48% at 0% 100%,
           #ffc593 0%,
@@ -72,8 +72,4 @@
       }
     }
   }
-
-  // .story__lgradient {
-  //   opacity: 0;
-  // }
 }
